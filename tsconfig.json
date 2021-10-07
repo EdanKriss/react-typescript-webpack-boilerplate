@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "strictNullChecks": true,
+        "module": "ES2020",
+        "target": "ES6",
+        "jsx": "react",
+        "allowJs": true,
+        "moduleResolution": "node",
+        "baseUrl": ".", // this must be specified if "paths" is specified.
+        "paths": { // this mapping is relative to "baseUrl"
+            "@src/*": ["./src/*"],
+        }
+    }
+}
